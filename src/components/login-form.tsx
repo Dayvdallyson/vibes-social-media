@@ -53,7 +53,9 @@ export function LoginForm({
                   placeholder="m@example.com"
                 />
                 {errors.email && (
-                  <span className="text-red-500">The email is required</span>
+                  <span className="text-red-500 mt-2">
+                    The email is required
+                  </span>
                 )}
               </div>
               <div className="grid gap-3">
@@ -65,7 +67,9 @@ export function LoginForm({
                   type="password"
                 />
                 {errors.password && (
-                  <span className="text-red-500">The password is required</span>
+                  <span className="text-red-500 mt-2">
+                    The password is required
+                  </span>
                 )}
               </div>
               <div className="flex flex-col gap-3">
